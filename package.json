@@ -1,0 +1,14 @@
+{
+  "name": "testcafe-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe chrome tests/ --app \"http-server . -s -p 38010\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "testcafe": "^1.2.1"
+  }
+}
